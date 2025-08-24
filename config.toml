@@ -24,6 +24,7 @@ C-A-a = "increment"
 C-A-z = "decrement"
 C-k = "goto_previous_buffer"
 C-j = "goto_next_buffer"
+"esc" = "collapse_selection"
 
 [keys.insert]
 C-a = ["normal_mode", ":write"]
