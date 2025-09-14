@@ -30,10 +30,11 @@ C-j = "goto_next_buffer"
 C-a = ["normal_mode", ":write"]
 
 [keys.normal."-"]
-r = ":reload-all"
-l = ":lsp-restart"
-s = ":toggle-option soft-wrap.enable"
-i = ":pipe sort"
+d = ":reset-diff-change"
 f = ":reflow"
 h = ":toggle lsp.display-inlay-hints"
+i = ":pipe sort"
+l = ":lsp-restart"
+r = ":reload-all"
+s = ":toggle-option soft-wrap.enable"
 
