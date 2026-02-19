@@ -3,6 +3,6 @@ name = "rust"
 
 [config]
 imports.granularity.enforce = true
-imports.granularity.group = "module"
+imports.granularity.group = "one"
 imports.prefix = "self"
 
